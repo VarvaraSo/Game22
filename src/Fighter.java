@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Fighter {
+public interface Fighter {
+    int attack();
 }

@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Seller {
+public interface Seller {
+    String sell(Merchant.Goods goods);
 }

@@ -1,2 +1,16 @@
-package PACKAGE_NAME;public class Realm {
+import java.io.BufferedReader;
+
+public class Realm {
+
+    public static BufferedReader br;
+    private static FantasyCharacter player = null;
+    private static BattleScene battleScene = null;
+
+    public class FightCallback {
+        public void fightLost() {
+        }
+
+        public void fightWin() {
+        }
+    }
 }

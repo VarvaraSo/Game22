@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface FightCallback {
+public interface FightCallback {
+    void fightWin();
+    void fightLost();
 }
